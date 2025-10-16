@@ -12,5 +12,5 @@ public class Recolectables : MonoBehaviour
       itemsRecolectados++;
       Destroy(other.gameObject); // Destruimos objeto
     }
-}
+  }
 }

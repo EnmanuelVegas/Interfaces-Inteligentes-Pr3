@@ -12,7 +12,7 @@ public class Dano : MonoBehaviour
   void Start()
   {
     dano = 0;
-    // Si no se asigna la luz manualmente, busca la primera luz en la escena
+    // Si no se asigna la luz manualmente en el inspector, busca la primera luz en la escena
     if (luzEscena == null)
     {
       luzEscena = FindFirstObjectByType<Light>();
@@ -27,12 +27,6 @@ public class Dano : MonoBehaviour
     {
       colorOriginal = renderer.material.color;
     }
-  }
-
-  // Update is called once per frame
-  void Update()
-  {
-
   }
 
   void OnTriggerEnter(Collider collision)

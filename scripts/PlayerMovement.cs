@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-  private float velocidad;
+  public float velocidad;
   // Start is called once before the first execution of Update after the MonoBehaviour is created
   void Start()
   {
